@@ -1,6 +1,10 @@
 language: python
-python:
-  - "3.8"
+
+services:
+  - docker
+
+before_install:
+  - docker build -t reverse-arr:1.0 .
 
 script:
-  - pytest -v
+  - docker run reverse-arr:1.0 pytest -v

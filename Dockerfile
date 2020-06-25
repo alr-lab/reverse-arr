@@ -6,4 +6,6 @@ WORKDIR $WD
 
 COPY . $WD
 
+RUN pip install pytest
+
 CMD python main.py
