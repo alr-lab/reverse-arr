@@ -1,5 +1,7 @@
 # Reverse array
 
+[![Build Status](https://travis-ci.org/alr-lab/reverse-arr.svg?branch=master)](https://travis-ci.org/alr-lab/reverse-arr)
+
 Simple project to experiment with Python.
 
 ## Getting started
